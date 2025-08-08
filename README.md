@@ -1,5 +1,4 @@
 # RobustGAN
-The code will be open source soon
 # Installation Guide
 1. Clone our repo:
 ```bash
