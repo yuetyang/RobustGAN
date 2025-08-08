@@ -4,6 +4,7 @@ The code will be open source soon
 1. Clone our repo:
 ```bash
 git clone https://github.com/yuetyang/RobustGAN.git
+```
 2. Create new virtual environment:
 ```bash
 conda crate -n venvRobustGAN python=3.8
