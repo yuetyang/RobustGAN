@@ -7,7 +7,7 @@ git clone https://github.com/yuetyang/RobustGAN.git
 ```
 2. Create new virtual environment:
 ```bash
-conda crate -n venvRobustGAN python=3.8
+conda create -n venvRobustGAN python=3.8
 conda activate venvRobustGAN
 ```
 3. Install our dependencies by running the following command:
