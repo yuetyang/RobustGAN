@@ -1,4 +1,5 @@
 # RobustGAN
+coming soon!
 # Installation Guide
 1. Clone our repo:
 ```bash
@@ -15,5 +16,10 @@ pip install -r requirements.txt
 ```
 
 # Training
-coming soon!
+```bash
+python train.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan --netG robustgan
+```
 # Testing
+```bash
+python test.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan 
+```
