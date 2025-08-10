@@ -23,5 +23,3 @@ python train.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --mode
 ```bash
 python test.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan 
 ```
-%# Acknowledgements
-%This project is developped on the codebase of [CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git). We  appreciate this great work! 
