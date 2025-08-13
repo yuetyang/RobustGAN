@@ -13,10 +13,10 @@ conda activate venvRobustGAN
 ```bash
 pip install -r requirements.txt
 ```
-## Datasets
-coming soon!
-
 ## Training
+1. Prepare datasets
+   coming soon!
+3. Start training
 ```bash
 python train.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan --netG robustgan
 ```
