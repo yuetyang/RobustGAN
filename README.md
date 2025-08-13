@@ -16,9 +16,9 @@ pip install -r requirements.txt
 ## Training
 1. Prepare datasets
 ```bash
-   coming soon!!
+#coming soon!!
 ```
-3. Start training
+2. Start training
 ```bash
 python train.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan --netG robustgan
 ```
