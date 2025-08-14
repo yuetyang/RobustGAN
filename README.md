@@ -13,7 +13,7 @@ conda activate venvRobustGAN
 ```bash
 pip install -r requirements.txt
 ```
-Additionally, for training, you need to install torch+cuda, torchvision+cuda
+4. Additionally, for training, you need to install torch+cuda, torchvision+cuda
 ```bash
 pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 --index-url https://download.pytorch.org/whl/cu113
 ```
