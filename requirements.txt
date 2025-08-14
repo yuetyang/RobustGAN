@@ -1,8 +1,7 @@
-torch=1.10.0
-torchvision=0.11.1
-dominate=2.7.0
-visdom=0.1.8.9
-scipy=1.9.8
-functools=4.28.2
-Pillow=10.2.0
-numpy=1.21.4
+numpy==1.21.4
+visdom==0.1.8.9
+scikit-image
+scipy
+dominate>=2.8.0
+Pillow>=10.0.0
+wandb>=0.16.0
