@@ -18,11 +18,6 @@ pip install -r requirements.txt
 pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 --index-url https://download.pytorch.org/whl/cu113
 ```
 ## Training
-1. Prepare datasets
-```bash
-#coming soon!!
-```
-2. Start training
 ```bash
 python train.py --dataroot ./datasets/demo_ct_pet --name robustgan_ct_pet --model robustgan --netG robustgan
 ```
