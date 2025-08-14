@@ -1,5 +1,4 @@
 # RobustGAN
-coming soon! debuging
 ## Installation Guide
 1. Clone our repo:
 ```bash
@@ -13,6 +12,10 @@ conda activate venvRobustGAN
 3. Install our dependencies by running the following command:
 ```bash
 pip install -r requirements.txt
+```
+Additionally, for training, you need to install torch+cuda, torchvision+cuda
+```bash
+pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 --index-url https://download.pytorch.org/whl/cu113
 ```
 ## Training
 1. Prepare datasets
